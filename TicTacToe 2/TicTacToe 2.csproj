@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>TicTacToe_2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Circle.png" />
+    <None Remove="Assets\Cross.png" />
+    <None Remove="Assets\Grid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Circle.png" />
+    <Resource Include="Assets\Cross.png" />
+    <Resource Include="Assets\Grid.png" />
+  </ItemGroup>
+
+</Project>
